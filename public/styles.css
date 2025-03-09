@@ -5,6 +5,18 @@ body {
     font-family: 'Lora', serif;
     margin: 0;
     padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Estilo para botões */
@@ -16,14 +28,15 @@ button {
     font-size: 16px;
     font-family: 'Lora', serif;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     margin: 5px;
 }
 
 /* Efeito hover nos botões */
 button:hover {
     background-color: #f0f0f0;
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo para links que se comportam como botões */
@@ -36,13 +49,14 @@ a.button {
     font-family: 'Lora', serif;
     text-decoration: none;
     color: #000000;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     margin: 5px;
 }
 
 a.button:hover {
     background-color: #f0f0f0;
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo para containers */
@@ -50,6 +64,17 @@ a.button:hover {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.6s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Estilo para títulos */
@@ -57,6 +82,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     margin-bottom: 20px;
     font-family: 'Lora', serif;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: slideIn 0.6s ease-out forwards;
+    animation-delay: calc(var(--delay, 0s) + 0.2s);
 }
 
 /* Estilo para parágrafos */
@@ -83,11 +112,17 @@ input, textarea {
     padding: 12px;
     font-size: 16px;
     font-family: 'Lora', serif;
-    transition: all 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 input:hover, textarea:hover {
     background-color: #f0f0f0;
+}
+
+input:focus, textarea:focus {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
 
 /* Estilo para cards */
@@ -97,6 +132,17 @@ input:hover, textarea:hover {
     padding: 20px;
     margin: 20px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Global transitions for interactive elements */
+button, a.button, input, textarea, .card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Custom scrollbar styling */
@@ -112,9 +158,10 @@ input:hover, textarea:hover {
 ::-webkit-scrollbar-thumb {
     background: #ffffff;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: #f0f0f0;
+    transform: scale(1.05);
 }
