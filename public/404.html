@@ -16,6 +16,7 @@
             margin: 0;
             overflow: hidden;
             gap: 20px;
+            position: relative;
         }
         
         .error-container {
@@ -40,9 +41,18 @@
             color: #888;
             margin-bottom: 30px;
         }
+        
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 70px;
+            height: 70px;
+        }
     </style>
 </head>
 <body>
+    <img src="verus.svg" alt="Verus Logo" class="logo">
     <div class="error-container">
         <div class="error-code">404</div>
         <h1 class="error-message">Página não encontrada</h1>
