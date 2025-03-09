@@ -13,7 +13,9 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            min-height: 100vh;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
             gap: 20px;
         }
         
@@ -42,10 +44,15 @@
         <h1>Verus</h1>
     </header>
     <main class="container button-group">
-        <button id="anonymousBtn">Entrar anonimamente</button>
         <button id="loginBtn">Fazer login</button>
         <button id="signupBtn">Criar conta</button>
     </main>
+    <footer class="container">
+        <p style="font-size: 14px; color: #888;">Nenhuma informação coletada por meio desta plataforma será vendida.</p>
+        <div style="margin-top: 10px;">
+            <a href="https://github.com/FelipeFMA/verus" target="_blank" style="color: inherit; text-decoration: none;">Ver código fonte</a>
+        </div>
+    </footer>
 
     <script src="index.js"></script>
 </body>
