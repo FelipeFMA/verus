@@ -26,4 +26,4 @@ Estou aberto a contribuições de todos os tipos. Se você compartilha minha vis
 
 ---
 
-"A verdade é como uma obra de arte: não se impõe, mas se revela."
+*"A verdade é como uma obra de arte: não se impõe, mas se revela."*
