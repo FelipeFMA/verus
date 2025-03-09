@@ -1,3 +1,5 @@
+<img src="public/verus.png" alt="Verus" style="width: 80px; float: left; margin-right: 10px;">
+
 # Verus - Plataforma de Pesquisas Eleitorais
 
 ## Visão
