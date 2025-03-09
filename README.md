@@ -2,7 +2,7 @@
 
 ## Visão
 
-Verus (do latim "verus", significando Verdadeiro ou Autêntico) é uma plataforma de pesquisas eleitorais em desenvolvimento. Meu objetivo é proporcionar transparência e veracidade nas pesquisas eleitorais, permitindo que os cidadãos expressem suas opiniões de forma segura e confiável.
+Verus (do latim, significando Verdadeiro ou Autêntico) é uma plataforma de pesquisas eleitorais em desenvolvimento. Meu objetivo é proporcionar transparência e veracidade nas pesquisas eleitorais, permitindo que os cidadãos expressem suas opiniões de forma segura e confiável.
 
 ## Missão
 
