@@ -1,30 +1,30 @@
-# Verus - Plataforma de Pesquisas Eleitorais
+# Verus - Meu Projeto de Aprendizado sobre Pesquisas Eleitorais
 
 <img src="public/verus.png" alt="Verus" style="width: 200px">
 
-## Visão
+## Olá! 👋
 
-Verus (do latim, significando Verdadeiro ou Autêntico) é uma plataforma de pesquisas eleitorais em desenvolvimento. Meu objetivo é proporcionar transparência e veracidade nas pesquisas eleitorais, permitindo que os cidadãos expressem suas opiniões de forma segura e confiável.
+Este é um projeto pessoal que estou desenvolvendo para aprender mais sobre desenvolvimento web e sistemas de pesquisa eleitoral. O nome "Verus" vem do latim e significa "Verdadeiro ou Autêntico".
 
-## Missão
+## O que estou aprendendo?
 
-- Promover a democracia através de dados precisos
-- Garantir a integridade das pesquisas eleitorais
-- Oferecer uma plataforma transparente e confiável
-- Empoderar os cidadãos com informações reais
+- Como criar uma aplicação web
+- Segurança em aplicações web
+- Desenvolvimento de interfaces intuitivas
+- Trabalho com dados e pesquisas
 
 ## Status do Projeto
 
-Verus está em seus estágios iniciais de desenvolvimento. Atualmente, estou focado em:
+Estou no começo da jornada! Atualmente, estou focado em:
 
-- Desenvolver a infraestrutura básica
-- Implementar sistemas de segurança
-- Criar uma interface intuitiva
-- Estabelecer protocolos de verificação
+- Aprender a estrutura básica de uma aplicação web
+- Implementar funcionalidades básicas
+- Criar uma interface amigável
+- Entender como trabalhar com dados
 
-## Contribuições
+## Quer ajudar?
 
-Estou aberto a contribuições de todos os tipos. Se você compartilha minha visão de uma democracia mais transparente e gostaria de colaborar, você é bem-vindo.
+Se você também está aprendendo e quer compartilhar conhecimentos, fique à vontade para contribuir! É um projeto para aprender juntos.
 
 ---
 
