@@ -1,4 +1,4 @@
-# Verus - Meu Projeto de Aprendizado sobre Pesquisas Eleitorais
+# Verus - Projeto Pesquisas Eleitorais
 
 <img src="public/verus.png" alt="Verus" style="width: 200px">
 
